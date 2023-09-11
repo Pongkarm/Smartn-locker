@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css"/>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+</head>
+<body class="background1">
+    <h1>Sign up</h1>
+    <form action="#" method="post" class="signup">
+        <div>
+            <label for="firstname-signup">First name</label>
+            <input class="textbox" type="text" name="firstname" placeholder="Enter your name" id="firstname-signup"
+                maxlength="50" required>
+        </div>
+        <div>
+            <label for="lastname-signup">Last name</label>
+            <input class="textbox" type="text" name=lastname placeholder="Enter your last name" id="lastname-signup"
+                maxlength="50" required>
+        </div>
+        <div>
+            <label for="gmail-signup">Email</label>
+            <input class="textbox" type="emil" name=gmail value="@gmail.com" id="gmail-signup" maxlength="999999"
+                required>
+        </div>
+        <div>
+            <label><label for="phonenumber-signup">Phone number</label></label>
+            <input class="textbox" type="text" name=numberphon placeholder="Enter your phone number"
+                id="numberphon-signup" maxlength="10" required>
+        </div>
+        <div class="classradio-signup">
+            <label>Staff</label>
+            <input id="radio-studen" type="radio" name=Staff value="Student"> <label>Student</label>
+            <input id="radio-teacher" type="radio" name=Staff value="Teacher"> <label>Teacher</label>
+            <input id="radio-internalpersonnel" type="radio" name=Staff value="Internal"> <label>Internal personnel</label>
+
+        </div>
+        <div>
+            <label  id="whocardnumber">Student card number</label>
+            <input class="textbox" type="text" name=Studentnumber placeholder="Enter your Student"
+                id="Studentnumber-signup" maxlength="10" min=0 required>
+        </div>
+        <div>
+            <label for="username-signup">Username</label>
+            <input class="textbox" type="text" name=username placeholder="Enter your username" id="username-signup"
+                maxlength="20" required>
+        </div>
+        <div>
+            <label for="password-signup">Password</label>
+            <input class="textbox" type="password" name=password-signup placeholder="Enter your password"
+                id="password-signup" maxlength="20" required>
+        </div>
+        <div>
+            <button class="button-submit"><a href="login.html">back</a>
+                <button class="button-submit" type="submit"><a href="page2.html">sign up</a></button>
+        </div>
+    </form>
+<script src="index.js"></script>
+</body>
+</html>

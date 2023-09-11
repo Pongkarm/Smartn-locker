@@ -1,0 +1,385 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* ////////////sing.up///////////// */
+
+h1 {
+  color: rgb(15, 49, 240);
+  text-align: center;
+  position: relative;
+}
+
+.signup {
+  padding: 25px 10px 5px 10px;
+  margin: 30px auto;
+  cursor: pointer;
+  text-align: center;
+  border: solid 2px rgb(0, 255, 98);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  height: auto;
+  max-width: 550px;
+  position: relative;
+}
+
+.textbox {
+  border-radius: 7px;
+  border: none;
+  text-align: center;
+  font-size: 2.5vh;
+  transition: .5s;
+  margin: 2px;
+  position: relative;
+
+}
+
+.signup label {
+  padding: 1px;
+}
+
+.signup input {
+  margin-left: 5px;
+
+}
+
+.radio-signup input {
+  transform: scale(1.5);
+}
+
+.textbox:hover,
+.textbox:focus {
+  background: #fff;
+  width: 250px;
+  color: darkgreen;
+}
+
+.button-submit {
+  font-size: 12px;
+  height: 5vh;
+  width: 10vh;
+  border-radius: 5px;
+  border: none;
+  margin: 10px;
+}
+
+button a {
+  text-decoration: none;
+
+  padding: 15px 2px
+}
+
+.button-submit:hover {
+  color: #fff;
+  background: green;
+}
+
+.signup label {
+  margin-left: 2px;
+  font-size: 20px;
+  color: #fff;
+  width: 1em;
+
+}
+
+.signup div {
+  padding: 2px;
+}
+
+.background1 {
+  background-image: url(https://media.istockphoto.com/id/1419766496/photo/abstract-concepts-of-cybersecurity-technology-and-digital-data-protection-protect-internet.jpg?b=1&s=612x612&w=0&k=20&c=mMG_-IOsy9IOupqSDvEbeqduD-LGZ3bBp1fZ5pXoIwA=);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  background-color: aliceblue;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+}
+
+.head {
+  font-size: 20px;
+}
+
+.box {
+  justify-content: center;
+  text-align: center;
+}
+
+.locker_box {
+  border-block-end: 2px solid;
+  border-radius: 3px;
+  margin: 2px 1px;
+  background-color: rgb(4, 250, 127);
+  display: inline-block;
+  text-align: center;
+  box-shadow: 5px 5px 5px rgb(48, 24, 33);
+}
+
+.button {
+  text-decoration: none;
+  color: black;
+  height: 120px;
+  padding: 40px 20px;
+  display: inline-block;
+  font-size: 22px;
+  font-weight: bold;
+  width: 100%;
+}
+
+/* /////////////////////// Login ///////////////////// */
+#body-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(https://cdn.pixabay.com/photo/2020/12/23/14/41/forest-5855196_1280.jpg)no-repeat;
+  background-position: center;
+  box-shadow: 0 0 10px rgb(0, 0, 0, rgb(255, 255, 255, .2));
+
+}
+
+.wrapper {
+  width: 420px;
+  background-color: transparent;
+  background-position: center;
+  backdrop-filter: blur(5px);
+  color: #f3e2e2;
+  border-radius: 10px;
+  border: 2px solid rgb(255, 255, 255, .2);
+  padding: 30px 40px;
+}
+
+.wrapper h1 {
+  font-size: 36px;
+  text-align: center;
+  color: rgb(241, 241, 241);
+}
+
+.wrapper .input-box {
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+  position: relative;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgb(255, 255, 255, .2);
+  border-radius: 40px;
+  color: rgb(26, 25, 25);
+  font-size: 16px;
+  padding: 20px 45px 20px 20px;
+}
+.input-box input[type="text"]::placeholder,[type="password"]::placeholder{
+  color: #fff;
+}
+
+
+.wrapper .remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+  accent-color: #fff;
+  margin-right: 3px;
+}
+
+.remember-forgot a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+.wrapper .btn {
+  width: 100%;
+  height: 45px;
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgb(0, 0, 0, .1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+
+.wrapper .register-link {
+  font-size: 14.5px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.register-link p a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register-link p a:hover {
+  text-decoration: underline;
+}
+
+/* ///////////////////  page2 /////////////////////////////*/
+#loc_1 {
+  width: 45%;
+  background-color: red;
+}
+
+#loc_2 {
+  width: 45%;
+  background-color: red
+}
+
+#loc_3 {
+  width: 45%;
+}
+
+#loc_4 {
+  width: 45%;
+}
+
+.foot {
+  background-color: aliceblue;
+  padding: 20px;
+  text-align: center;
+}
+
+.cheat {
+  height: 2000px;
+}
+
+header {
+  font-size: 40px;
+  background-color: rgb(60, 126, 183);
+  font-weight: bold;
+  width: auto;
+}
+
+#loc_1:hover {
+  background: gray;
+}
+
+#loc_2:hover {
+  background: gray;
+}
+
+#loc_3:hover {
+  background: gray;
+}
+
+#loc_4:hover {
+  background: gray;
+}
+
+/* /////////// lockerpassword ///////// */
+.lockerpassword {
+  background-color: #a340f4;
+}
+
+.conainer_lockerpassword {
+  position: relative;
+  width: 240px;
+  background-color: #fff;
+  margin: 140px auto;
+  font-size: 20px;
+  padding: 1rem;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0, .4);
+  border-radius: 10px;
+}
+
+.lockerpassword i {
+  position: relative;
+  bottom: -1.25px;
+}
+
+/* .lockerpass{
+    
+ } */
+.button2 {
+  display: flex;
+}
+
+.go_button {
+  width: 50px;
+  height: auto;
+  margin-left: 70px;
+  padding: 2px 11px;
+}
+
+.go_button a {
+  text-decoration: none;
+  color: black
+}
+
+.back_button {
+  width: 50px;
+}
+
+.back_button a {
+  text-decoration: none;
+  color: black;
+  padding: 2px 11px;
+}
+
+.back_button:hover,
+.go_button:hover {
+  background-color: rgb(39, 236, 171);
+}
+
+
+
+
+/* /////////////////unlocker//////////////// */
+
+
+
+.unlocklockerhtml {
+  background-color: #b10c0c;
+}
+
+
+
+
+
+/* ///////////////////// open-close //////////////////// */
+
+.open-close {
+  background-color: rgb(135, 167, 214);
+  text-align: center;
+  margin: 50px auto;
+}
+
+.open-close-button {
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px;
+}
+
+:hover.open-close-button {
+  background-color: chartreuse;
+}
+
+.open-close-button2 {
+  width: 50px;
+  height: 30px;
+  margin: 10px;
+}
