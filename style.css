@@ -3,7 +3,6 @@
   padding: 0px;
   box-sizing: border-box;
 }
-
 /* ////////////sing.up///////////// */
 
 h1 {
@@ -141,7 +140,6 @@ header {
   background: url(https://cdn.pixabay.com/photo/2020/12/23/14/41/forest-5855196_1280.jpg)no-repeat;
   background-position: center;
   box-shadow: 0 0 10px rgb(0, 0, 0, rgb(255, 255, 255, .2));
-
 }
 
 .wrapper {
@@ -180,32 +178,26 @@ header {
   font-size: 16px;
   padding: 20px 45px 20px 20px;
 }
-.input-box input[type="text"]::placeholder,[type="password"]::placeholder{
+.input-box input[type="text"]::placeholder,.input-box input[type="password"]::placeholder{
   color: #fff;
 }
-
-
 .wrapper .remember-forgot {
   display: flex;
   justify-content: space-between;
   font-size: 14.5px;
   margin: -15px 0 15px;
 }
-
 .remember-forgot label input {
   accent-color: #fff;
   margin-right: 3px;
 }
-
 .remember-forgot a {
   color: #ffffff;
   text-decoration: none;
 }
-
 .remember-forgot a:hover {
   text-decoration: underline;
 }
-
 .wrapper .btn {
   width: 100%;
   height: 45px;
@@ -348,13 +340,9 @@ header {
 
 /* /////////////////unlocker//////////////// */
 
-
-
 .unlocklockerhtml {
   background-color: #b10c0c;
 }
-
-
 
 
 
@@ -382,4 +370,60 @@ header {
   width: 50px;
   height: 30px;
   margin: 10px;
+}
+
+/* //////////////////////forgotpassword/////////////////// */
+.body-forgotpassword{
+    height: 100vh;
+    background: linear-gradient(
+        45deg,
+        #8b51ff,
+        #7a37ff
+    );
+}
+.form-forgotpassword{
+    background-color: #ffffff;
+    width: 450px;
+    padding: 50px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.15);
+}
+.form-forgotpassword label{
+    font-weight: 500;
+    color: #101030;
+}
+.form-forgotpassword input{
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    padding: 12px;
+    border-radius: 5px;
+    outline: none;
+    color: #101010;
+}
+#password_forgotpassword{
+    margin-bottom: 30px;
+}
+.form-forgotpassword input[type="password"]{
+    border: 2px solid #c2c2c2;
+}
+.form-forgotpassword input[type="button"]{
+    background-color: #7f3fff;
+    border: none;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#message_forgotpassword{
+    font-size: 14px;
+    margin: 15px 0;
+    display: inline-block;
+    color: #ffffff;
 }
